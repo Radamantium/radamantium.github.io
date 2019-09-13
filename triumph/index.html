@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Triumph - Bézier curve</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap&subset=cyrillic" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <div class="container-wrapper">
+    <div class="contaner">
+      <header id="header" class="header">
+        <h1 class="header__title">
+          Cubic Bezier Curves!
+        </h1>
+      </header>
+      <svg id="bezierCanvas">
+        <g id="templates">
+          <path id="path-template" d="M -100, -100 C -100, -100, -100, -100, -100, -100" stroke="red" stroke-width="4" fill="none" stroke-linecap="round"/>
+          <line id="line-template" x1="-100" y1="-100" x2="-100" y2="-100" stroke="black" stroke-width="1" stroke-linecap="round"/>
+          <circle id="circle-template" cx="-100" cy="-100" r="5" stroke="black" stroke-width="1" fill="red" />
+        </g>
+      </svg>
+    </div>
+  </div>   
+</body>
+<script src="js/cubicBezierCurve.js"></script>
+<script src="js/main.js"></script>
+</html>
